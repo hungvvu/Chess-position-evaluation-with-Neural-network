@@ -1,2 +1,4 @@
 # Chess-position-evaluation-with-Neural-network
-A personal Machine Learning project. The aim is to evaluate Chess position using a dataset of Chess positions and evaluation score given by StockFish (currently one of the top Chess engine).
+A personal Machine Learning project. The aim is to evaluate Chess position using a dataset of Chess positions and evaluation score given by StockFish (currently one of the top Chess engine). I am planning on building my own Chess engine so I hope to learn more about how position evaluation works in Chess through this project.
+
+Typically, an engine will "look into the future" and check all posible lines from the current position to make come up with an evaluation. Humans, on the other hand, can't see too far into the future so we tend to evaluate a position base on our experience and understanding of Chess. This project will try to test whether we can come up with an educated guess of the evaluation score without looking into the future and using only the available dataset.
